@@ -1,11 +1,13 @@
-import User from "./components/state/User";
-import Login from "./components/state/Login";
+import Counter from "./components/state/Counter";
+import {Box} from "./components/state/Box";
 
 export default function Home() {
     return(
         <div>
-            <Login/>
-            <User/>
+            {/*<Login/>*/}
+            {/*<User/>*/}
+            <Counter/>
+            <Box/>
         </div>
     )
 }
